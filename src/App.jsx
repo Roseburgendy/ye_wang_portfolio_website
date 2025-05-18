@@ -35,12 +35,12 @@ const App = () => {
   return (
     <div className="bg-gray-100 font-sans font-medium">
       {/* Header */}
-      <header className="flex justify-between items-center bg-white-900 text-black p-5">
+      <header className="flex justify-between items-center bg-white-900 text-black py-5 px-64">
         <div className="text-3xl">
              <img src={Logo} alt="Logo" className="h-10 w-auto" />
         </div>
         <nav>
-          <ul className="flex space-x-6 text-lg text-black">
+          <ul className="flex justify-end gap-8 text-lg text-black">
             <li><a href="#projects" className="hover:text-indigo-300">Projects</a></li>
             <li><a href="#about" className="hover:text-indigo-300">About</a></li>
             <li><a href="#playground" className="hover:text-indigo-300">Playground</a></li>
