@@ -1,13 +1,16 @@
 {
   "name": "ye-wang-portfolio",
   "private": true,
+  "homepage": "https://Roseburgendy.github.io/ye_wang_portfolio_website",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.15",
