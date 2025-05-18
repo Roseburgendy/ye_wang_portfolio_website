@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
-import headshot from './assets/homepage/headshot.png';
+import headshot from './assets/homepage/Headshot.png';
 
 <img src={headshot} alt="My Headshot" />
 
