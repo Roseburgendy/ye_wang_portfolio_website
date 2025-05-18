@@ -33,7 +33,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="bg-gray-100 font-sans">
+    <div className="bg-gray-100 font-sans font-medium">
       {/* Header */}
       <header className="flex justify-between items-center bg-indigo-900 text-white p-5">
         <div className="text-3xl">YW</div>
@@ -86,8 +86,8 @@ const App = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-indigo-900 text-white py-6 text-center">
-        <p className="text-lg">Design and Developed with Love by Ye Wang</p>
+      <footer className="bg-indigo-900 text-white-900 font-medium py-6 text-center">
+        <p className="text-lg mb-4">Design and Developed with Love by Ye Wang</p>
         <p>&copy; 2025 All Rights Reserved</p>
       </footer>
     </div>
