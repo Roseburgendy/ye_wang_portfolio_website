@@ -35,7 +35,7 @@ const App = () => {
   return (
     <div className="bg-gray-100 font-sans font-medium">
       {/* Header */}
-      <header className="flex justify-between items-center bg-white-900 text-black py-5 px-64">
+      <header className="flex justify-between items-center bg-white-900 text-black p-5">
         <div className="text-3xl">
              <img src={Logo} alt="Logo" className="h-10 w-auto" />
         </div>
